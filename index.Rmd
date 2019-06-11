@@ -1,0 +1,119 @@
+---
+title: <br><br><center>Meetings in Madrid<center>
+author: "Minerva Martínez"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    thumbnails: false
+    lightbox: true
+    gallery: true
+    css: form.css
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+
+## **Option 1** - Hotel Pullman Madrid Airport and Feria
+
+The **Aurea Meeting Room** in Hotel Pullman Madrid Airport and Feria is a meeting room with a fixed furniture. It has a big table up to 16 pax.
+It has natural lighting.
+
+    The Cost would be:
+    Rental per day: 1200€ VAT inc
+    AV rental (screen and projector) per day: 560€ VAT inc
+
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/01/a6/0f/3b/sala-aurea.jpg" width="100%">
+
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**The hotel offers a Finger Tapas menu from 52€ VAT inc** *Including:8 tapas + fresh fruit , drinks and coffees*</p>  
+
+
+<img src = "https://q-cf.bstatic.com/images/hotel/max1024x768/197/197283008.jpg" width="100%">
+
+
+****
+
+## **Option 2** - Restaurant Orgaz
+
+Restaurant Orgaz has a private room up to 16 pax. It is a nice restaurant located walking distance from the Fair.
+
+    The Cost would be:
+    Rental per hour: 150€ VAT inc (minimum 3 hours)
+    AV rental (screen and projector) per day: 560€ VAT inc
+
+
+<img src = "Orgaz.jpg" width="100%">
+
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+**The Restaurant offers set menus from 47€ VAT inc** *Including:starters to share + main course+ dessert + drinks and coffees*</p>  
+
+
+<img src = "https://noticias.infurma.es/wp-content/uploads/2015/11/RESTAURANTE-ORGAZ-1.jpg" width="100%">
+
+
+## Map
+
+<iframe src="https://www.google.com/maps/d/embed?mid=17comrgQHDag3LxDYi4XuHbAVeHGprrsm&hl=es" width="800" height="500"></iframe>
+
+  * Hotel Pullman Airport is located less than 5 minutes from IFEMA entrance
+  * Restaurante Orgaz is located around 20 minuts walking from IFEMA entrance
+
+
+****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+

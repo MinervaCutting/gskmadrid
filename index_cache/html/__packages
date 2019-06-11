@@ -1,0 +1,9 @@
+base
+readxl
+dplyr
+knitr
+kableExtra
+rbokeh
+rmdformats
+shiny
+timevis
